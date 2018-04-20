@@ -5,6 +5,7 @@
  */
 
 import React, { Component } from 'react';
+import Bananas from './src/components/nav/Page.js'
 import {
   Platform,
   StyleSheet,
@@ -24,6 +25,7 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
+        <Bananas />
         <Text style={styles.welcome}>
           欢迎来用react-native来编辑
         </Text>
