@@ -5,7 +5,8 @@
  */
 
 import React, { Component } from 'react';
-import Bananas from './src/components/nav/Page.js'
+import Bananas from './src/components/app/nav/Page.js'
+import DatePickerExample  from './src/components/common/DatePicker/Page';
 import {
   Platform,
   StyleSheet,
@@ -26,6 +27,7 @@ export default class App extends Component<Props> {
     return (
       <View style={styles.container}>
         <Bananas />
+        <DatePickerExample/> 
         <Text style={styles.welcome}>
           欢迎来用react-native来编辑
         </Text>
