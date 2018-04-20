@@ -5,7 +5,7 @@
  */
 
 import React, { Component } from 'react';
-import Bananas from './src/components/app/nav/Page.js'
+import Bananas from './src/components/app/banner/Page.js'
 import DatePickerExample  from './src/components/common/DatePicker/Page';
 import {
   Platform,

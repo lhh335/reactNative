@@ -98,8 +98,8 @@ class DatePickerExample extends React.Component {
                     timeZoneOffsetInMinutes={this.state.timeZoneOffsetInHours * 60}
                     onDateChange={this.onDateChange}
                 />
-                <Heading label="Date picker" />
-                <DatePickerIOS
+                {/* <Heading label="Date picker" /> */}
+                {/* <DatePickerIOS
                     date={this.state.date}
                     mode="date"
                     timeZoneOffsetInMinutes={this.state.timeZoneOffsetInHours * 60}
@@ -112,7 +112,7 @@ class DatePickerExample extends React.Component {
                     timeZoneOffsetInMinutes={this.state.timeZoneOffsetInHours * 60}
                     onDateChange={this.onDateChange}
                     minuteInterval={10}
-                />
+                /> */}
             </View>
         )
     }
